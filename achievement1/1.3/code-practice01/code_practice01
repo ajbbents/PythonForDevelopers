@@ -1,0 +1,12 @@
+num1 = int(input("enter your first number, please: "))
+num2 = int(input("enter your second number, please: "))
+operator = input("enter your operator (+ or -): ")
+
+if operator == "+":
+    print("result: ", num1 + num2)
+
+elif operator == "-":
+    print("result: ", num1 - num2)
+
+else:
+    print('not sure what that one is.')
